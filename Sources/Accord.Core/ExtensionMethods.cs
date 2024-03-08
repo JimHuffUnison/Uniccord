@@ -640,8 +640,9 @@ namespace Accord
         {
             unsafe
             {
-                System.TypedReference reference = __makeref(t);
-                return *(System.IntPtr*)(&reference);
+                //System.TypedReference reference = __makeref(t);
+                //return *(System.IntPtr*)(&reference);
+               return IntPtr.Zero;
             }
         }
 
@@ -659,9 +660,10 @@ namespace Accord
         {
             unsafe
             {
-                System.TypedReference reference = __makeref(t);
-                System.TypedReference* pRef = &reference;
-                return (System.IntPtr)pRef; //(&pRef)
+                //System.TypedReference reference = __makeref(t);
+                //System.TypedReference* pRef = &reference;
+                //return (System.IntPtr)pRef; //(&pRef)
+                return IntPtr.Zero;
             }
         }
 #endif

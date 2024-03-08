@@ -34,11 +34,11 @@ namespace Accord
     /// 
     public static partial class Sort
     {
-#if DEBUG
-        public static int INTROSORT_THRESHOLD = 32;
-#else
+//#if DEBUG
+        //public static int INTROSORT_THRESHOLD = 32;
+//#else
         const int INTROSORT_THRESHOLD = 32;
-#endif
+//#endif
 
         /// <summary>
         ///   Insertion sort.
