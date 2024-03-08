@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ProjectGuid>{FD8101DD-C95D-42D6-AD44-AE01C25F2811}</ProjectGuid>
     <RootNamespace>Accord.Statistics</RootNamespace>
-    <AssemblyName>Accord.Statistics</AssemblyName>
+    <AssemblyName>Uniccord.Statistics</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ProjectGuid>{A177A90C-8207-466A-AF70-F2B8452A42AC}</ProjectGuid>
     <RootNamespace>Accord</RootNamespace>
-    <AssemblyName>Accord</AssemblyName>
+    <AssemblyName>Uniccord</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -178,7 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>

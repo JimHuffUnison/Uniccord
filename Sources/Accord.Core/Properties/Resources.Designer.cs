@@ -19,10 +19,10 @@ namespace Accord.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,14 +36,10 @@ namespace Accord.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-#if NETSTANDARD1_4
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Accord.Properties.Resources", System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(Resources)).Assembly);
-#else
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Accord.Properties.Resources", typeof(Resources).Assembly);
-#endif
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -55,7 +51,7 @@ namespace Accord.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -67,7 +63,7 @@ namespace Accord.Properties {
         /// <summary>
         ///   Looks up a localized string similar to This algorithm does not support instance weights at this time. Please feel free to report this as an enhancement request in the project issue tracker - or even submit a pull request implementing this feature!.
         /// </summary>
-        internal static string NotSupportedWeights {
+        public static string NotSupportedWeights {
             get {
                 return ResourceManager.GetString("NotSupportedWeights", resourceCulture);
             }
