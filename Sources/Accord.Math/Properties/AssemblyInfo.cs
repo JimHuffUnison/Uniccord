@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Accord.Math")]
-[assembly: AssemblyDescription("Accord.NET - Math Library")]
+[assembly: AssemblyTitle( "Uniccord.Math" )]
+[assembly: AssemblyDescription( "Uniccord.NET - Math Library" )]
 [assembly: AssemblyConfiguration("")]
 
 // This sets the default COM visibility of types in the assembly to invisible.
